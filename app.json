@@ -7,15 +7,15 @@
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
-      "value": "your_api_id_here"
+      "value": "29695886"
     },
     "API_HASH": {
       "description": "Your Telegram API Hash",
-      "value": "your_api_hash_here"
+      "value": "14ca35d1ae7a732d32f2f28c83ed54db"
     },
     "BOT_TOKEN": {
       "description": "Your Telegram Bot Token",
-      "value": "your_bot_token_here"
+      "value": "Token_dalo_re"
     },
     "OPENAI_API_KEY": {
       "description": "Your OpenAI API Key",
@@ -23,23 +23,23 @@
     },
     "MONGO_URI": {
       "description": "MongoDB URI for storing bot data",
-      "value": "your_mongodb_uri_here"
+      "value": "mongodb+srv://Mohmaya:mohmaya890@cluster0.mesiasx.mongodb.net/?retryWrites=true&w=majority"
     },
     "START_IMAGE": {
       "description": "Link to the start image for the bot",
-      "value": "your_start_image_url_here"
+      "value": "https://files.catbox.moe/8lhzsh.jpg"
     },
     "SUPPORT_CHAT": {
       "description": "Link to your support chat",
-      "value": "your_support_chat_link_here"
+      "value": "https://t.me/Unique_society"
     },
     "UPDATE_CHANNEL": {
       "description": "Link to your update channel",
-      "value": "your_update_channel_link_here"
+      "value": "https://t.me/New_Sanatani"
     },
     "LOG_GROUP_ID": {
       "description": "Telegram group ID for logging",
-      "value": "your_log_group_id_here"
+      "value": "-1002362839740"
     }
   },
   "buildpacks": [
