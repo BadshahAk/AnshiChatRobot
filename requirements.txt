@@ -1,5 +1,7 @@
 pyrogram==2.0.24
-tgcrypto==1.2.1
+tgcrypto==1.2.0  # Updated version
 openai==0.27.0
-pymongo==3.11.4
-python-dotenv==0.19.2
+pytesseract==0.3.9
+Pillow==8.4.0
+requests==2.26.0
+python-dotenv==0.20.0
