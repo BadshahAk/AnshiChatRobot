@@ -1,0 +1,9 @@
+setup:
+  cache:
+    paths:
+      - .heroku/python/lib/python3.8/site-packages
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: python main.py
