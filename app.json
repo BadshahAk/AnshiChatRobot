@@ -1,0 +1,56 @@
+{
+  "name": "AnshiChatRobot",
+  "description": "A Telegram chatbot with AI-based responses, automatic replies, and image processing.",
+  "keywords": ["telegram", "bot", "AI", "chatbot", "python"],
+  "repository": "https://github.com/BadshahAk/AnshiChatRobot",
+  "logo": "https://www.example.com/logo.png", 
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "value": "your_api_id_here"
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "value": "your_api_hash_here"
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token",
+      "value": "your_bot_token_here"
+    },
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API Key",
+      "value": "your_openai_api_key_here"
+    },
+    "MONGO_URI": {
+      "description": "MongoDB URI for storing bot data",
+      "value": "your_mongodb_uri_here"
+    },
+    "START_IMAGE": {
+      "description": "Link to the start image for the bot",
+      "value": "your_start_image_url_here"
+    },
+    "SUPPORT_CHAT": {
+      "description": "Link to your support chat",
+      "value": "your_support_chat_link_here"
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Link to your update channel",
+      "value": "your_update_channel_link_here"
+    },
+    "LOG_GROUP_ID": {
+      "description": "Telegram group ID for logging",
+      "value": "your_log_group_id_here"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
